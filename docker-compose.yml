@@ -4,7 +4,7 @@ services:
     ports:
       - "5050:80"
     environment:
-      PGADMIN_DEFAULT_EMAIL: "joao@mail.com"
+      PGADMIN_DEFAULT_EMAIL: "user@mail.com"
       PGADMIN_DEFAULT_PASSWORD: "123456"
       PGADMIN_CONFIG_SERVER_MODE: "False"
   database:
